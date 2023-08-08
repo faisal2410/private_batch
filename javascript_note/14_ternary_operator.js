@@ -6,7 +6,7 @@
 // condition ? value_if_true : value_if_false
 
 // Here's an example:
-
+// ternary operator
 
 // let age = 18;
 // let message = age >= 18 ? "You are an adult" : "You are not an adult";

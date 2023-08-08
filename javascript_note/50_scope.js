@@ -9,14 +9,14 @@
 // Here is an example of how scope works in JavaScript:
 
 
-// var globalVar = "I am a global variable";
+var globalVar = "I am a global variable";
 
-// function exampleFunction() {
-//     var localVar = "I am a local variable";
-//     console.log(localVar); // Output: "I am a local variable"
-//     console.log(globalVar); // Output: "I am a global variable"
-// }
+function exampleFunction() {
+    var localVar = "I am a local variable";
+    console.log(localVar); // Output: "I am a local variable"
+    console.log(globalVar); // Output: "I am a global variable"
+}
 
-// console.log(localVar); // Output: Uncaught ReferenceError: localVar is not defined
+console.log(localVar); // Output: Uncaught ReferenceError: localVar is not defined
 
 // In this example, globalVar has global scope and can be accessed from anywhere in the program.localVar has local scope and can only be accessed within the exampleFunction() function. When we try to access localVar outside of the function, we get a ReferenceError because it is not defined in that scope.
